@@ -1,17 +1,17 @@
 package com.example.employee.repository;
 
-import java.util.ArrayList;
+import java.util.Map;
 
 import com.example.employee.model.Employee;
 
 public interface EmployeeRepository {
-    ArrayList<Employee> getEmp();
+    Map<Integer, Employee> getEmpMap();
 
     Employee addEmp(Employee employee);
 
-    Employee getEmpById(int empId);
+    Employee getEmpById(int employeeId);
 
-    Employee updateEmp(int empId, Employee employee);
+    Employee updateEmp(int employeeId, Employee employee);
 
-    void deleteEmployee(int empId);
+    void deleteEmployee(int employeeId);
 }

@@ -1,32 +1,32 @@
 package com.example.employee.model;
 
 public class Employee {
-    private int empId;
-    private String empName;
+    private int employeeId;
+    private String employeeName;
     private String email;
     private String department;
 
-    public Employee(int empId, String empName, String email, String department) {
-        this.empId = empId;
-        this.empName = empName;
+    public Employee(int employeeId, String employeeName, String email, String department) {
+        this.employeeId = employeeId;
+        this.employeeName = employeeName;
         this.email = email;
         this.department = department;
     }
 
-    public int getEmpId() {
-        return this.empId;
+    public int getEmployeeId() {
+        return this.employeeId;
     }
 
-    public void setEmpId(int empId) {
-        this.empId = empId;
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
     }
 
-    public String getEmpName() {
-        return this.empName;
+    public String getEmployeeName() {
+        return this.employeeName;
     }
 
-    public void setEmpName(String empName) {
-        this.empName = empName;
+    public void setEmployeeName(String employeeName) {
+        this.employeeName = employeeName;
     }
 
     public String getEmail() {
